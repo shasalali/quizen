@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1 id="header">Quiz</h1>
+    <div id="öppning">
+      <p>Välkommen till quizen. Vad heter du?  <input type="text" id="namn"><button id="namnknapp">Klicka</button></p>
+      <p>Hur många frågor vill du se? <button id="enfråga">En fråga</button> <button id="tvåfrågor">Två frågor</button> <button id="trefrågor">Tre frågor</button> <button id="fyrafrågor">Fyra frågor</button> <button id="femfrågor">Fem frågor</button></p>
+      <p>Du har svarat på <span id="svarat"></span> frågor</p>
+    </div>
+    <div id="quiz">
+        <div id="fråga1">
+            <p id="ques1"></p>
+            <form>
+                <input type="checkbox" id="checked1"> Carl XVI Gustav<br>
+                <input type="checkbox"> Gustav Vasa<br>
+            </form>
+            <button id="första">Svara</button>
+        </div>
+        <div id="fråga2">
+                <p id="ques2"></p>
+                <form>
+                    <input type="checkbox" id="checked"> Nacka<br>
+                    <input type="checkbox" id="checked2"> Solna<br>
+                </form>
+                <button id="andra">Svara</button>
+        </div>
+        <div id="fråga3">
+                <p id="ques3"></p>
+                <form>
+                    <input type="checkbox" id="checked"> London<br>
+                    <input type="checkbox" id="checked3"> Paris<br>
+                </form>
+                <button id="tredje">Svara</button>
+        </div>
+        <div id="fråga5">
+            <p id="ques5"></p>
+            <form>
+                <input type="checkbox" id="checked"> Barack Obama<br>
+                <input type="checkbox" id="checked5"> Donald Trump<br>
+            </form>
+            <button id="femte">Svara</button>
+            
+    </div>
+        <div id="fråga4">
+                <p id="ques4"></p>
+                <form>
+                    <input type="checkbox" id="checked4"> Ringo<br>
+                    <input type="checkbox" id="doublecheck"> John Lennon<br>
+                    <input type="checkbox" id="checked9"> Michael Jackson<br>
+                </form>
+                <button id="fjärde">Svara</button>
+        </div>
+    </div>
+    <p id="namn2"></p>
+    <script src="test.js"></script>
+    <script src="testdisplay.js"></script>
+</body>
+</html>
